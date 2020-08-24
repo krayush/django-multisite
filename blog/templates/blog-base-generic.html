@@ -1,0 +1,29 @@
+{% load cms_tags menu_tags sekizai_tags staticfiles static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% block title %}<title>Local Library</title>{% endblock %}
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/png" href="{% static 'favicon.ico' %}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Add additional CSS in static file -->
+    {% render_block "css" %}
+    {% load static %}
+    <!-- <link rel="stylesheet" href="{% static 'css/styles.css' %}"> -->
+</head>
+
+<body>
+    {% cms_toolbar %}
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-10 ">
+                BLOG TEMPLATE GENERIC
+                {% block content %}{% endblock content %}
+            </div>
+        </div>
+    </div>
+    {% render_block "js" %}
+</body>
+
+</html>

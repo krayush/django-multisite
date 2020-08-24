@@ -1,0 +1,5 @@
+.DS_Store
+# Removing only the base static directory
+/static
+__pycache__/
+*.pyc
