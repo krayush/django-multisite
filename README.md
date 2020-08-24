@@ -1,4 +1,4 @@
-# Django POC for multi-tenant support
+# Django CMS with multi-site support
 
 ## Development setup
 - Installing dependencies
@@ -31,3 +31,4 @@ python manage.py createsuperuser
 ```
 - [Create a super user](https://stackoverflow.com/questions/11337420/can-i-use-an-existing-user-as-django-admin-when-enabling-admin-for-the-first-tim)
 - For accordion, djangocms-accordion is used. Now djangocms-accordion only work with jQuery, so included jQuery directly from CDN
+![alt text](https://github.com/krayush/django-multisite/blob/master/help-files/accordion-implementation.png?raw=true)
