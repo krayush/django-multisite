@@ -39,12 +39,11 @@ djangocms-installer==1.2.3
 djangocms-link==2.6.1
 djangocms-multisite==0.3.1
 djangocms-picture==2.4.0
-djangocms-redirect==0.5.0
 djangocms-snippet==2.3.0
 djangocms-spa==0.1.22
 djangocms-style==2.3.0
 djangocms-text-ckeditor==3.10.0
-djangocms-video==2.1.1
+djangocms-video==3.0.0
 djangorestframework==3.11.1
 docutils==0.15.2
 easy-thumbnails==2.7
@@ -61,7 +60,7 @@ pycodestyle==2.6.0
 pycparser==2.20
 PyJWT==1.7.1
 pylint==2.5.3
-PyMySQL==0.9.3
+PyMySQL==0.10.1
 python-dateutil==2.8.1
 python3-openid==3.1.0
 pytz==2020.1
